@@ -1,0 +1,6 @@
+class CampusManager:
+    def __init__(self):
+       self.Undo_Stack = UndoStack()
+       self.Service_Queue = ServiceQueue()
+       self.visit_history = VisitHistoryLinkedList()
+       self.Campus_Tree = CampusTree("Üniversitem")
